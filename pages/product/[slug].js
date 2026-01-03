@@ -1,3 +1,3 @@
-export default function Product() {
-  return <h1>Product Page</h1>;
+export default function Product({ params }) {
+  return <h1>Product Page: {params.slug}</h1>;
 }
