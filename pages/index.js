@@ -1,3 +1,3 @@
-export default function Home() {
-  return <h1>Welcome to SeeUnderLove</h1>;
+export default function Index() {
+  return <h1>Home Page</h1>;
 }
